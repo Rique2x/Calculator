@@ -24,3 +24,7 @@ button{
     cursor: pointer;
     outline: none;
 }
+
+.span-two{
+    grid-column: span 2;
+}

@@ -58,3 +58,9 @@ button{
     color:white;
     font-size: 40px;
 }
+
+
+.copyright{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

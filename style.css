@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container-grid{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns:repeat(4, 100px);
+    grid-template-rows: minmax(10px, auto) repeat(5, 100px);
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px;
+}
+
+

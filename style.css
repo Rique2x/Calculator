@@ -16,4 +16,11 @@ body{
     box-shadow: 0 0 10px;
 }
 
-
+button{
+    font-size: 30px;
+    background-color: rgb(128, 125, 125);
+    color: rgb(233, 233, 227);
+    border: 1px solid  rgb(158, 155, 155);
+    cursor: pointer;
+    outline: none;
+}

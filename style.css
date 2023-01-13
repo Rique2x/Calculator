@@ -23,8 +23,22 @@ button{
     border: 1px solid  rgb(158, 155, 155);
     cursor: pointer;
     outline: none;
+    height: 100px;
 }
 
 .span-two{
     grid-column: span 2;
+}
+
+#orange{
+    background-color: rgb(255, 153, 0);
+}
+
+.output{
+    border: 1px solid;
+    border-radius: 10px 10px 0 0;
+    grid-column: 1/ -1;
+    background-color: black;
+    height: 100px;
+    
 }

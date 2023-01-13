@@ -18,9 +18,9 @@ body{
 
 button{
     font-size: 30px;
-    background-color: rgb(128, 125, 125);
+    background-color: rgb(85, 82, 82);
     color: rgb(233, 233, 227);
-    border: 1px solid  rgb(158, 155, 155);
+    border: 1px solid  rgb(131, 127, 127);
     cursor: pointer;
     outline: none;
     height: 100px;
@@ -32,7 +32,9 @@ button{
 
 #orange{
     background-color: rgb(255, 153, 0);
+    border-right: 1px solid rgb(255, 153, 0);
 }
+
 
 .output{
     border: 1px solid;
@@ -41,4 +43,18 @@ button{
     background-color: black;
     height: 100px;
     
+}
+
+.previous-operand{
+    display: flex;
+    justify-content: flex-end;
+    color:rgba(255, 255, 255, .75);
+    font-size: 40px;
+}
+
+.current-operand{
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+    font-size: 40px;
 }

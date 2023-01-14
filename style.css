@@ -64,3 +64,28 @@ button{
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+@media (max-width: 550px){
+    .container-grid{
+        grid-template-columns:repeat(4, 80px);
+        grid-template-rows: minmax(10px, auto) repeat(5, 70px);
+    }
+
+    button{
+        font-size: 20px;
+        height: 70px;
+    }
+
+    .output{
+        height: 80px;
+    }
+
+    .previous-operand{
+        font-size: 20px;
+    }
+
+    .current-operand{
+        font-size: 30px;
+    }
+}

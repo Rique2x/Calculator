@@ -67,6 +67,7 @@ button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*MOBILE VERSION*/
 
 @media (max-width: 550px){
     .container-grid{

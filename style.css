@@ -47,12 +47,14 @@ button{
 
 .previous-operand{
     display: flex;
+    font-family: fantasy;
     justify-content: flex-end;
     color:rgba(255, 255, 255, .75);
     font-size: 40px;
 }
 
 .current-operand{
+    font-family: fantasy;
     display: flex;
     justify-content: flex-end;
     color:white;

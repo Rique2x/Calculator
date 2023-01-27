@@ -9,21 +9,21 @@ body{
 .container-grid{
     display: grid;
     flex-wrap: wrap;
-    grid-template-columns:repeat(4, 100px);
-    grid-template-rows: minmax(10px, auto) repeat(5, 100px);
+    grid-template-columns:repeat(4, 80px);
+    grid-template-rows: minmax(10px, auto) repeat(5, 70px);
     align-items: center;
     border-radius: 10px 10px 0 0;
     box-shadow: 0 0 10px;
 }
 
 button{
-    font-size: 30px;
+    font-size: 20px;
     background-color: rgb(85, 82, 82);
     color: rgb(233, 233, 227);
     border: 1px solid  rgb(131, 127, 127);
     cursor: pointer;
     outline: none;
-    height: 100px;
+    height: 70px;
 }
 
 .span-two{
@@ -31,7 +31,7 @@ button{
 }
 
 #orange{
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(255, 102, 0);
     border-right: 1px solid rgb(255, 153, 0);
 }
 
@@ -50,7 +50,7 @@ button{
     font-family: fantasy;
     justify-content: flex-end;
     color:rgba(255, 255, 255, .75);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .current-operand{
@@ -58,7 +58,7 @@ button{
     display: flex;
     justify-content: flex-end;
     color:white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
@@ -67,7 +67,6 @@ button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*MOBILE VERSION*/
 
 @media (max-width: 550px){
     .container-grid{

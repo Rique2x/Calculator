@@ -26,6 +26,7 @@ button{
     cursor: pointer;
     outline: none;
     height: 70px;
+    font-family: monospace;
 }
 
 .span-two{

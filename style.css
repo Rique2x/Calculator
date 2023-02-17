@@ -49,14 +49,14 @@ button{
 
 .previous-operand{
     display: flex;
-    font-family: fantasy;
+    font-family: monospace;
     justify-content: flex-end;
     color:rgba(255, 255, 255, .75);
     font-size: 30px;
 }
 
 .current-operand{
-    font-family: fantasy;
+    font-family: monospace;
     display: flex;
     justify-content: flex-end;
     color:white;
